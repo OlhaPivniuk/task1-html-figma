@@ -1,0 +1,77 @@
+.cards__container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__item {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    width: 335px;
+    padding: 40px;
+    text-align: center;
+}
+
+.card__item.standart {
+    padding: 60px 40px;
+    background-color: #2091F9;
+    color: white;
+}
+
+.btn-try.pricing {
+    margin-top: 30px;
+}
+
+.btn-try.pricing:hover {
+    background-color: rgb(11, 18, 77);
+}
+
+.btn-try.standart {
+    background-color: white;
+    color: #2091F9;
+    margin-top: 30px;
+}
+
+.btn-try.standart:hover {
+    background-color: rgb(11, 18, 77);
+    color: white;
+}
+
+#pricing {
+    margin-top: 100px;
+    padding: 50px 0 100px;
+    background-color: #252B42;
+}
+
+.cards__container li {
+    list-style: none;
+    margin-left: -20px;
+    padding: 10px 0;
+    font-size: 15px;
+}
+
+.cards__container h4 {
+    max-width: 160px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cost p {
+    font-size: 74px;
+    font-weight: 900;
+    margin: 0 0 20px;
+}
+
+.cost p span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cost p sup {
+    font-size: 16px;
+    font-weight: 900;
+}

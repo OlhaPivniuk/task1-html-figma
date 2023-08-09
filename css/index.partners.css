@@ -1,0 +1,38 @@
+#partners {
+    margin: 100px 0;
+}
+
+.partner__container {
+    text-align: center;
+}
+
+.partner__container p {
+    max-width: 400px;
+    margin: 0 auto 50px;
+}
+
+.partners__group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partner__item {
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.btn-try.partner {
+    margin-top: 50px;
+}
+
+@media (min-width: 600px) {
+    .partner__item {
+        border: 1px solid rgba(11, 18, 77, 0.401);
+    }
+
+    .partners__group {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
